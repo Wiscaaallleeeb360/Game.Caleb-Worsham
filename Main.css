@@ -1,0 +1,30 @@
+
+
+body{
+    background-color: orangered;
+}
+
+a {
+    display: block;
+
+    text-decoration: none;
+    
+}
+
+.prompt::before{
+    context: 'Adventure';
+    display: block;
+    font-size: 64px;
+    color:blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:red;
+}
+
+
+/* PSEUDO SELECTOR */
+a:hover{
+    background-color: black;
+    color: white;
+    transition: 0.10s background-color;
+    
+}
